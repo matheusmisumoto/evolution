@@ -1,6 +1,6 @@
 <?php
 /**
- * Default footer block pattern
+ * Footer block pattern with social links
  */
 
 return array(

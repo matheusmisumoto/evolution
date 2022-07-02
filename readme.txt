@@ -18,12 +18,15 @@ Tags: block-patterns, custom-logo, custom-menu, featured-images, threaded-commen
 
 == Changelog ==
 
+= 1.0.1 =
+* Bug fixes and update theme description on style.css
+
 = 1.0 =
 * Initial public release
 
 == Copyright ==
 
-The Evolution WordPress Theme, (C) 2022 Matheus Misumoto.
+The Evolution Theme, (C) 2022 Matheus Misumoto.
 The Evolution is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify

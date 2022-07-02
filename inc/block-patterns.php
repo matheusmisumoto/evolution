@@ -48,7 +48,7 @@ function evolution_register_block_patterns() {
 		'header-default',
         'footer-social',
         'footer-default',
-		"hidden-404"
+		'hidden-404'
 	);
 
 	/**

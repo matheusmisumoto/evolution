@@ -25,12 +25,6 @@ if ( ! function_exists( 'evolution_support' ) ) :
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
 
-        // This theme uses wp_nav_menu() in one location.
-		register_nav_menus( array(
-			'header-menu' => esc_html__( 'Header Menu', 'the-evolution' ),
-			'footer-menu' => esc_html__( 'Footer Menu', 'the-evolution' )
-		) );
-
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
@@ -61,9 +55,6 @@ if ( ! function_exists( 'evolution_support' ) ) :
  		 * Load post formats
  		 **/
  		add_theme_support( 'post-formats',array( 'aside', 'gallery', 'link', 'image', 'status', 'video', 'quote' ) );
-
-		// Add theme support for selective refresh for widgets.
-		add_theme_support( 'customize-selective-refresh-widgets' );
 
 		/*
 		 * Enable support for Post Thumbnails on posts and pages.
