@@ -8,15 +8,17 @@ From single page website to complex navigations, The Evolution is a great theme 
 
 To install this theme, you can choose from:
 
-- Clone the repository into the `wp-content/themes` folder in your WordPress installation. 
-- Download the .zip file and install the theme using the Administration Panel.
+- Download from the [WordPress.org Themes Directory](https://wordpress.org/themes/the-evolution/)
+- Download from the Themes Directory in your Administration Panel
+- Clone the repository into the `wp-content/themes` folder in your WordPress installation
+- Download the .zip file and upload the theme to your website using the Administration Panel
 
 ## Requirements
 
 - WordPress 6.0+
 - PHP 7.4+
 
-## Contribuiting
+## Contributing
 
 All contributions are accepted, even the smallest. You can:
 

@@ -4,9 +4,9 @@ Contributors: Matheus Misumoto
 Requires at least: 6.0
 Tested up to: 6.0
 Requires PHP: 7.4
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Stable tag: 1.0.2
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == ABOUT ==
 
@@ -17,6 +17,10 @@ From single page website to complex navigations, The Evolution is a great theme 
 Tags: block-patterns, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, blog, photography, portfolio, one-column, editor-style, wide-blocks, full-width-template, full-size-editing, sticky-post, block-styles, wide-blocks
 
 == Changelog ==
+
+= 1.0.2 =
+* Update theme metatags on style.css
+* Remove empty styles folder
 
 = 1.0.1 =
 * Bug fixes and update theme description on style.css
