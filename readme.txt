@@ -4,7 +4,7 @@ Contributors: Matheus Misumoto
 Requires at least: 6.0
 Tested up to: 6.0
 Requires PHP: 7.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -17,6 +17,9 @@ From single page website to complex navigations, The Evolution is a great theme 
 Tags: block-patterns, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, blog, photography, portfolio, one-column, editor-style, wide-blocks, full-width-template, full-size-editing, sticky-post, block-styles, wide-blocks
 
 == Changelog ==
+
+= 1.0.4 =
+* Fixed truncated CSS file
 
 = 1.0.3 =
 * Fixed an issue where header and footer didn't show on archive pages
