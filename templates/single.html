@@ -2,12 +2,16 @@
 
 <!-- wp:group {"tagName":"article"} -->
 <article class="wp-block-group">
-    <!-- wp:group {"align":"wide","className":"title","layout":{"inherit":true}} -->
-    <div class="wp-block-group title alignwide">
-        <!-- wp:post-terms {"term":"category","className":"cat-links alignwide"} /-->
-        <!-- wp:post-title {"level":1,"align":"wide"} /-->
-        <!-- wp:group {"align":"wide","type":"flex"} -->
-		<div class="wp-block-group alignwide post-meta">
+    <!-- wp:group {"className":"title","layout":{"inherit":true}} -->
+    <div class="wp-block-group title">
+        <!-- wp:post-terms {"term":"category","className":"cat-links"} /-->
+        <!-- wp:group -->
+        <div class="wp-block-group">
+            <!-- wp:post-title {"level":1} /-->
+        </div>
+        <!-- /wp:group -->
+        <!-- wp:group {"type":"flex"} -->
+		<div class="wp-block-group post-meta">
 			<!-- wp:post-author {"showAvatar":false} /-->
 			<!-- wp:post-date /-->
         </div>
@@ -54,7 +58,17 @@
 <section class="wp-block-comments-query-loop comments alignfull">
 
     <!-- wp:group {"layout":{"inherit":true}} -->
-    <div class="wp-block-group"><!-- wp:comments-title {"textAlign":"center"} /--><!-- wp:comment-template --><!-- wp:comment-author-name {"isLink":false} /--><!-- wp:comment-date {"isLink":false} /--><!-- wp:comment-content /--><!-- wp:comment-edit-link {"className":"comment-edit"} /--><!-- wp:comment-reply-link {"className":"comment-reply"} /--><!-- /wp:comment-template --><!-- wp:post-comments-form /--></div>
+    <div class="wp-block-group">
+        <!-- wp:comments-title {"textAlign":"center"} /-->
+        <!-- wp:comment-template -->
+            <!-- wp:comment-author-name {"isLink":false} /-->
+            <!-- wp:comment-date {"isLink":false} /-->
+            <!-- wp:comment-content /-->
+            <!-- wp:comment-edit-link {"className":"comment-edit"} /-->
+            <!-- wp:comment-reply-link {"className":"comment-reply"} /-->
+        <!-- /wp:comment-template -->
+        <!-- wp:post-comments-form /-->
+    </div>
     <!-- /wp:group -->
 
 </section>
