@@ -4,7 +4,7 @@ Contributors: Matheus Misumoto
 Requires at least: 6.0
 Tested up to: 6.0
 Requires PHP: 7.4
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -17,6 +17,11 @@ From single page website to complex navigations, The Evolution is a great theme 
 Tags: block-patterns, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, blog, photography, portfolio, one-column, editor-style, wide-blocks, full-width-template, full-size-editing, sticky-post, block-styles, wide-blocks
 
 == Changelog ==
+
+= 1.0.5 =
+* Minor refactoring
+* Use Roboto Mono font to code block
+* Fix block alignmnent on post-title
 
 = 1.0.4 =
 * Fixed truncated CSS file
@@ -54,6 +59,11 @@ GNU General Public License for more details.
 This theme bundles the following third-party resources:
 
 Inter Font
-Copyright (c) 2016-2020 The Inter Project Authors.
+Copyright (c) Rasmus Andersson.
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/rsms/inter
+
+Roboto Mono
+Copyright (c) Christian Robertson.
+License: Apache License, 2.0, http://www.apache.org/licenses/LICENSE-2.0
+Source: https://fonts.google.com/specimen/Roboto+Mono

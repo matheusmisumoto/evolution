@@ -38,7 +38,7 @@ Tags: custom-logo, featured-images, threaded-comments, translation-ready, blog, 
   --content: 750px;
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* { box-sizing: border-box; }
 html, body { font-size: 16px; background: var(--page-bg); color: var(--text); direction: ltr; -webkit-font-smoothing: antialiased; }
 input { font-family: "Inter", Arial, sans-serif; }
 a { text-decoration: none; }
@@ -88,9 +88,9 @@ article p > code { background-color: var(--code-bg); color: var(--code-text); pa
 article blockquote, .wp-block-quote { border-color: var(--primary); color: var(--secondary-text); }
 article blockquote p { margin: 0; }
 blockquote cite, .wp-block-quote > cite { font-size: 1.2em; font-weight: bold; }
-.wp-block-code { border: 0; position: relative; z-index: 0; }
-.wp-block-code code { background: unset; position: relative; white-space: pre-wrap; word-break: break-all; }
-.wp-block-code:before { position: absolute; z-index: -1; right: 1.5rem; top: 1.5rem; content:'<code>'; font-family: "Ubuntu", Tahoma, sans-serif; font-weight: 700; font-size: 3em; color: #EFEFEF; opacity: 0.2; }
+.wp-block-code { position: relative; z-index: 0; }
+.wp-block-code code { position: relative; white-space: pre-wrap; word-break: break-all; }
+.wp-block-code:before { position: absolute; z-index: -1; right: 1.5rem; top: 1.5rem; content:'<code>'; font-family: "Ubuntu", sans-serif; font-weight: 700; font-size: 3em; color: #EFEFEF; opacity: 0.2; }
 .tags-links, .author-bio { margin: 3em auto 0 auto; }
 .tags-links, .author-bio { padding: 3em 0 0; border-top: 1px solid var(--division); }
 .tags-links h5 { margin: 0 0 1rem 0; }
@@ -166,8 +166,7 @@ main ul figure > img { width: 100%; height: 100%; object-fit: cover; object-posi
 .sticky + li { border: 0; }
 
 /* PAGINATION */
-.wp-block-query-pagination a { margin-top: 1rem; border-radius: 2rem; padding: .5rem 1rem; background-color: var(--primary); color: var(--primary-text); font-weight: bold; }
-.wp-block-query-pagination a:last-child:not(.wp-block-query-pagination-previous) { margin-left: auto; }
+.wp-block-query-pagination a { border-radius: 2rem; padding: .5rem 1rem; background-color: var(--primary); color: var(--primary-text); font-weight: bold; }
 
 /* RESPONSIVE ADJUSTMENTS */
 @media screen and (max-width: 1200px){
