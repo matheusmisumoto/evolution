@@ -265,6 +265,27 @@
 					"lineHeight": "1.5em"
 				}
 			},
+			"core/list": {
+				"spacing": {
+					"margin": {
+						"bottom": "1.5em"
+					},
+					"padding": {
+						"left": "1em"
+					}
+				}
+			},
+			"core/list-item": {
+				"typography": {
+					"fontSize": "clamp(1rem, 1.5vw, 1.125rem)",
+					"lineHeight": "1.5em"
+				},
+				"spacing": {
+					"margin": {
+						"top": "1rem"
+					}
+				}
+			},
 			"core/query-pagination": {
 				"spacing": {
 					"margin": {

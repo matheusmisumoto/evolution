@@ -77,8 +77,6 @@ article > div { clear: both; }
 .cat-links, .cat-links a { color: var(--text); font-size: clamp(1rem, 1.416vw, 1.0625rem); letter-spacing: .05em; text-transform: uppercase; text-decoration: none; }
 main, article { flex: 1; padding-bottom: 3em; }
 article a { color: var(--link); text-decoration: underline; }
-article li, article dt, article dd { margin: 1rem 0; padding: 0; line-height: 1.5em; }
-article ol, article ul { margin: 2rem, auto, 2rem, auto; padding-left: 2rem; }
 article hr { color: var(--division); }
 .wp-block-table th, .wp-block-table tr, .wp-block-table td { border: 0; text-align: left; }
 .wp-block-table td { font-weight: 300; padding: .5rem 1rem; }
@@ -143,9 +141,9 @@ input[type="checkbox"] ~ label { display: inline; vertical-align: super; }
 /* IMAGES */
 .wp-caption { max-width: 100%; margin: 0 auto 1.5rem auto; }
 article > .wp-block-embed { margin: 1em auto; text-align: center; display: block; padding: 0; }
-article figure { border-radius: 0.5rem; }
-article .alignwide { border-radius: 1rem; }
-article .alignfull { border-radius: 0; }
+article figure > *:is(img, iframe) { border-radius: 0.5rem; }
+article .alignwide > *:is(img, iframe) { border-radius: 1rem; }
+article .alignfull > *:is(img, iframe) { border-radius: 0; }
 article figure figcaption { font-size: .8125rem; margin: 0 2rem; }
 .alignright, .alignleft, .aligncenter { display: block; margin: 0 auto; }
 
@@ -180,4 +178,3 @@ main ul figure > img { width: 100%; height: 100%; object-fit: cover; object-posi
   footer .line { flex-direction: column; }
   footer .line, footer .line ul { justify-content: center; }
 }
-
