@@ -29,16 +29,25 @@ All contributions are accepted, even the smallest. You can:
 
 ## License
 
-The Evolution theme, (C) 2022 Matheus Misumoto. Distributed under the terms of the GNU GPL v3+.
+The Evolution theme, (C) 2022-2023 Matheus Misumoto. Distributed under the terms of the GNU GPL v3+.
 
 This theme bundles the following third-party resources:
 
 ### Inter Font
-Copyright (c) 2016-2020 The Inter Project Authors.
+
+Copyright (c) Rasmus Andersson.
 
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 
 Source: https://github.com/rsms/inter
+
+### Roboto Mono
+
+Copyright (c) Christian Robertson.
+
+License: Apache License, 2.0, http://www.apache.org/licenses/LICENSE-2.0
+
+Source: https://fonts.google.com/specimen/Roboto+Mono
 
 ---
 Developed with ☕ by [Matheus Misumoto](https://matheusmisumoto.dev) in Santos, Brazil

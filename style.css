@@ -5,7 +5,7 @@ Theme Name: The Evolution
 Author: Matheus Misumoto
 Author URI: https://matheusmisumoto.dev/
 Description: The Evolution is a minimalistic multi-purpose block theme. From single page website to complex navigations, it's a great theme to publish stories, tutorials, documentations, etc.
-Version: 1.0.4
+Version: 1.0.5
 Requires at least: 6.0
 Tested up to: 6.0
 Requires PHP: 7.4
@@ -38,7 +38,7 @@ Tags: custom-logo, featured-images, threaded-comments, translation-ready, blog, 
   --content: 750px;
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* { box-sizing: border-box; }
 html, body { font-size: 16px; background: var(--page-bg); color: var(--text); direction: ltr; -webkit-font-smoothing: antialiased; }
 input { font-family: "Inter", Arial, sans-serif; }
 a { text-decoration: none; }
@@ -77,8 +77,6 @@ article > div { clear: both; }
 .cat-links, .cat-links a { color: var(--text); font-size: clamp(1rem, 1.416vw, 1.0625rem); letter-spacing: .05em; text-transform: uppercase; text-decoration: none; }
 main, article { flex: 1; padding-bottom: 3em; }
 article a { color: var(--link); text-decoration: underline; }
-article li, article dt, article dd { margin: 1rem 0; padding: 0; line-height: 1.5em; }
-article ol, article ul { margin: 2rem, auto, 2rem, auto; padding-left: 2rem; }
 article hr { color: var(--division); }
 .wp-block-table th, .wp-block-table tr, .wp-block-table td { border: 0; text-align: left; }
 .wp-block-table td { font-weight: 300; padding: .5rem 1rem; }
@@ -88,9 +86,9 @@ article p > code { background-color: var(--code-bg); color: var(--code-text); pa
 article blockquote, .wp-block-quote { border-color: var(--primary); color: var(--secondary-text); }
 article blockquote p { margin: 0; }
 blockquote cite, .wp-block-quote > cite { font-size: 1.2em; font-weight: bold; }
-.wp-block-code { border: 0; position: relative; z-index: 0; }
-.wp-block-code code { background: unset; position: relative; white-space: pre-wrap; word-break: break-all; }
-.wp-block-code:before { position: absolute; z-index: -1; right: 1.5rem; top: 1.5rem; content:'<code>'; font-family: "Ubuntu", Tahoma, sans-serif; font-weight: 700; font-size: 3em; color: #EFEFEF; opacity: 0.2; }
+.wp-block-code { position: relative; z-index: 0; }
+.wp-block-code code { position: relative; white-space: pre-wrap; word-break: break-all; }
+.wp-block-code:before { position: absolute; z-index: -1; right: 1.5rem; top: 1.5rem; content:'<code>'; font-family: "Ubuntu", sans-serif; font-weight: 700; font-size: 3em; color: #EFEFEF; opacity: 0.2; }
 .tags-links, .author-bio { margin: 3em auto 0 auto; }
 .tags-links, .author-bio { padding: 3em 0 0; border-top: 1px solid var(--division); }
 .tags-links h5 { margin: 0 0 1rem 0; }
@@ -143,9 +141,9 @@ input[type="checkbox"] ~ label { display: inline; vertical-align: super; }
 /* IMAGES */
 .wp-caption { max-width: 100%; margin: 0 auto 1.5rem auto; }
 article > .wp-block-embed { margin: 1em auto; text-align: center; display: block; padding: 0; }
-article figure { border-radius: 0.5rem; }
-article .alignwide { border-radius: 1rem; }
-article .alignfull { border-radius: 0; }
+article figure > *:is(img, iframe) { border-radius: 0.5rem; }
+article .alignwide > *:is(img, iframe) { border-radius: 1rem; }
+article .alignfull > *:is(img, iframe) { border-radius: 0; }
 article figure figcaption { font-size: .8125rem; margin: 0 2rem; }
 .alignright, .alignleft, .aligncenter { display: block; margin: 0 auto; }
 
@@ -166,8 +164,7 @@ main ul figure > img { width: 100%; height: 100%; object-fit: cover; object-posi
 .sticky + li { border: 0; }
 
 /* PAGINATION */
-.wp-block-query-pagination a { margin-top: 1rem; border-radius: 2rem; padding: .5rem 1rem; background-color: var(--primary); color: var(--primary-text); font-weight: bold; }
-.wp-block-query-pagination a:last-child:not(.wp-block-query-pagination-previous) { margin-left: auto; }
+.wp-block-query-pagination a { border-radius: 2rem; padding: .5rem 1rem; background-color: var(--primary); color: var(--primary-text); font-weight: bold; }
 
 /* RESPONSIVE ADJUSTMENTS */
 @media screen and (max-width: 1200px){
@@ -181,4 +178,3 @@ main ul figure > img { width: 100%; height: 100%; object-fit: cover; object-posi
   footer .line { flex-direction: column; }
   footer .line, footer .line ul { justify-content: center; }
 }
-
